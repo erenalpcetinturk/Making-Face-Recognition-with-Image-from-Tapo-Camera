@@ -5,3 +5,11 @@
 
 # Installing
 Download the required libraries using the requirements.txt file.
+```
+pip install -r requirements.txt
+```
+
+# Running the application (Tapo Camera Needed)
+```
+python webcam.py
+```
