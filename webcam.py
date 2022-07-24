@@ -8,7 +8,7 @@ cascPath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 log.basicConfig(filename='webcam.log',level=log.INFO)
 
-video_capture = cv2.VideoCapture("rtsp://username:password@192.168.137.58:554/stream2")
+video_capture = cv2.VideoCapture("rtsp://username:password@ipaddress:554/stream2")
 anterior = 0
 
 while True:
